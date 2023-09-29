@@ -77,7 +77,7 @@ ADDITIONAL-SEGMENTS are inserted on the right, between `global' and
            :fallback evil-state
            :face highlight-face
            :priority 100)
-         '((buffer-modified buffer-size buffer-id remote-host)
+         '((buffer-modified line buffer-id remote-host)
            :priority 98)
          additional-segments))
 
